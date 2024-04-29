@@ -1,0 +1,8 @@
+*.pyc
+__pycache__
+*.pth
+*.log
+*.json
+*.png
+*.npy
+snapshot
