@@ -1,7 +1,19 @@
 # SSP-AI-Generated-Image-Detection
-The code for "A Single Simple Patch is All You Need for AI-generated Image Detection"
+
+This is the official implementation for the following research paper:
+
+> **A Single Simple Patch is All You Need for AI-generated Image Detection** [[arxiv]](https://arxiv.org/pdf/2402.01123.pdf)
+>
+> Jiaxuan Chen, Jieteng Yao, and Li Niu<br>
+
+Note that in the paper, we proposed Enhanced SSP (ESSP) to improve its robustness against blur and compression. Currently, we only release the code of SSP. The code of ESSP will be released soon. 
+
+<div align="center">
+  <img src='./figures/pipeline.png' align="center" width=800>
+</div>
+
 ## Environment setup
-environment: You can install the required packages by running the command:
+You can install the required packages by running the command:
 ```bash
 pip install -r requirements.txt
 ```
