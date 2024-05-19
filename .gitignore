@@ -3,6 +3,5 @@ __pycache__
 *.pth
 *.log
 *.json
-*.png
 *.npy
 snapshot
