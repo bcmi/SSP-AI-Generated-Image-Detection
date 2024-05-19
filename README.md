@@ -6,19 +6,19 @@ This is the official implementation for the following research paper:
 >
 > Jiaxuan Chen, Jieteng Yao, and Li Niu<br>
 
-Note that in the paper, we proposed Enhanced SSP (ESSP) to improve its robustness against blur and compression. Currently, we only release the code of SSP. The code of ESSP will be released soon. 
+Note that in the paper, we proposed Enhanced SSP (ESSP) to improve its robustness against blur and compression. Currently, we only release the code of SSP (the flowchart is shown in the following figure). The code of ESSP will be released soon. 
 
 <div align="center">
   <img src='./figures/pipeline.png' align="center" width=800>
 </div>
 
-## Environment setup
+## Environment Setup
 You can install the required packages by running the command:
 ```bash
 pip install -r requirements.txt
 ```
 ## Dataset
-The training set and testing set used in the paper can be downloaded in [GenImage](https://github.com/GenImage-Dataset/GenImage). This dataset contains data from eight generators. 
+The training set and testing set used in the paper can be downloaded from [GenImage](https://github.com/GenImage-Dataset/GenImage). This dataset contains data from eight generators. 
 After downloading the dataset, you need to specify the root path in the options. The dataset can be organized as follows:
 ```bash
 GenImage/
@@ -49,20 +49,20 @@ GenImage/
 └── imagenet_midjourney
     ...
 ```
-## Train and val
-You can simply run the following line to train and val your model:
+## Training and Validation
+You can simply run the following script to train and validate your model:
 ```bash
 sh train_val.sh
 ```
-## Test
-You can simply run the following line to test your model:
+## Testing
+You can simply run the following script to test your model:
 ```bash
 sh test.sh
 ```
-Our pretrained models on eight dataests can be downloaded in [Baidu Cloud](https://pan.baidu.com/s/1Wk2Cqeav_wVxPMPNy-zHZQ?pwd=bcmi)(code:bcmi)
+Our pretrained models on eight dataests can be downloaded from [Baidu Cloud](https://pan.baidu.com/s/1Wk2Cqeav_wVxPMPNy-zHZQ?pwd=bcmi) (code:bcmi) or [OneDrive](https://1drv.ms/f/s!Aq2pxrmMfMvRh29sp4zHSlbJRlP7?e=C3aHEp). 
 
-## Results of our method
-The results of ResNet50 and out SSP method with different training and test subsets. In each slot, the left number is the result of ResNet50. For each test subset, the bect results are highlighted in boldface.
+## Results on GenImage
+The results of ResNet50 baseline and our SSP method with different training and test subsets. In each slot, the left number is the result of ResNet50 and the right number is the result of our SSP. 
 <div align="center">
   <img src='./figures/results.png' align="center" width=900>
 </div>
