@@ -49,9 +49,20 @@ GenImage/
 └── imagenet_midjourney
     ...
 ```
-## Train and test
-You can use this following command to train and test your model.
+## Train and val
+You can simply run the following line to train and val your model:
 ```bash
-python train_val.py
-``` 
-Our pretrained models on sd4 can be downloaded in [Baidu Cloud](https://pan.baidu.com/s/1tmcfHeJfnlqcnqpZ_WtgBQ?pwd=7j1w)(code:7j1w)
+sh train_val.sh
+```
+## Test
+You can simply run the following line to test your model:
+```bash
+sh test.sh
+```
+Our pretrained models on eight dataests can be downloaded in [Baidu Cloud](https://pan.baidu.com/s/1Wk2Cqeav_wVxPMPNy-zHZQ?pwd=bcmi)(code:bcmi)
+
+## Results of our method
+The results of ResNet50 and out SSP method with different training and test subsets. In each slot, the left number is the result of ResNet50. For each test subset, the bect results are highlighted in boldface.
+<div align="center">
+  <img src='./figures/results.png' align="center" width=900>
+</div>

@@ -1,0 +1,1 @@
+python test.py --blur_prob=0 --jpg_prob=0 --val_batchsize=64 --patchsize=32 --load='snapshots/xxx'
