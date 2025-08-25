@@ -59,7 +59,7 @@ You can simply run the following script to test your model:
 ```bash
 sh test.sh
 ```
-Our pretrained models on eight dataests can be downloaded from [Baidu Cloud](https://pan.baidu.com/s/1Wk2Cqeav_wVxPMPNy-zHZQ?pwd=bcmi) (code:bcmi) or [OneDrive](https://1drv.ms/f/s!Aq2pxrmMfMvRh29sp4zHSlbJRlP7?e=C3aHEp). 
+Our pretrained models on eight dataests can be downloaded from [Baidu Cloud](https://pan.baidu.com/s/1BTkl1gc7gHq4Ev457G__QQ?pwd=bcmi) (code:bcmi) or [OneDrive](https://1drv.ms/f/s!Aq2pxrmMfMvRh29sp4zHSlbJRlP7?e=C3aHEp). 
 
 ## Results on GenImage
 The results of ResNet50 baseline and our SSP method with different training and test subsets. In each slot, the left number is the result of ResNet50 and the right number is the result of our SSP. 
